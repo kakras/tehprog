@@ -119,7 +119,7 @@ struct functions {
 };
 int main() {
 	Employee* employee = new Employee{ "Kate", 23, 5792.33 };
-	functions func;
+	Functions func = Functions();
 	func.list = employee;
 	func.AddBeg(func.list, "Bob", 44, 8825.2);
 	func.end(func.list, "Drake", 21, 8719.1);
